@@ -1,0 +1,25 @@
+{
+  "name": "ist-image-map",
+  "version": "0.0.1",
+  "authors": [
+    "Queli Coto <quelicm@gmail.com>"
+  ],
+  "description": "Web compoment for create static image map",
+  "keywords": [
+    "image",
+    "map",
+    "static"
+  ],
+  "license": "MIT",
+  "homepage": "http://quelicoto.es",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4"
+  }
+}

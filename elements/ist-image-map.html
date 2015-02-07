@@ -1,0 +1,26 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="ist-image-map" attributes="lat lng zoom w h sensor">
+  <template>
+  	 <img src="http://maps.googleapis.com/maps/api/staticmap?center={{lat}},{{lng}}&amp;zoom={{zoom}}&amp;size={{size}}&amp;sensor={{sensor}}" alt="">  
+  </template>
+  <script>
+    Polymer({
+      lat: 43.53120,
+      lng: -5.655469999999999,
+      zoom: 12,
+      sensor: false,
+      size : false,
+      // initialize the element's model
+      ready: function() {
+      	if(typeof this.w ==='undefined') {
+      		this.w=this.parentNode.offsetWidth;
+      	}
+      	if(typeof this.h ==='undefined') {
+      		this.h=this.parentNode.offsetHeight;
+      	}
+      	this.size = this.w+'x'+this.h;
+      },
+    });
+  </script>
+</polymer-element>
