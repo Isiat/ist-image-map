@@ -36,4 +36,4 @@ Sample:
 
 	<ist-image-map lat="43.4607733" lng="-3.800010" zoom="14" w="400" h="300" sensor="true"></ist-image-map>
 
-View [demo](https://isiat.github.io/ist-image-map) 
+View [demo](http://quelicoto.es/polymer/ist-image-map/index.html) 
