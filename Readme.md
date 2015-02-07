@@ -35,3 +35,5 @@ If you do not pass any parameter values ​​used are:
 Sample:
 
 	<ist-image-map lat="43.4607733" lng="-3.800010" zoom="14" w="400" h="300" sensor="true"></ist-image-map>
+
+View [demo](https://isiat.github.io/ist-image-map) 
