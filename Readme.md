@@ -1,39 +1,64 @@
-## IST-IMAGE-MAP
-	Simple web component to create a static image of google maps
+# &lt;ist-image-map&gt;
+
+> Simple web component to create a static image maps using [Polymer](http://www.polymer-project.org/).
+
+
+## Demo
+
+[Check it live!](http://quelicoto.es/polymer/ist-image-map/index.html)
 
 ## Install
 
-To install it on your local running
+Install the component using [Bower](http://bower.io/):
 
-	bower install
+```sh
+$ bower install
+```
 
-## How to use
+## Usage
 
-In your html , first added the js webcomponents.js
+1. Import Web Components' polyfill:
 
-	<!-- 1. Load platform support before any code that touches the DOM. -->
+    ```html
     <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+    ```
 
-In your html , adds the custom component web
+2. Import Custom Element:
 
-    <!-- 2. Load the component using an HTML Import -->
+    ```html
     <link rel="import" href="elements/ist-image-map.html">
+    ```
 
-with this you can already use the webcomponent
+3. Start using it!
 
- 	<ist-image-map></ist-image-map>
+    ```html
+    <ist-image-map></ist-image-map>
+    ```
 
-If you do not pass any parameter values ​​used are:
+## Options
 
-	 lat: 43.53120,
-     lng: -5.655469999999999,
-     zoom: 12,
-     sensor: false,
-     w: 100% the parent element up to 512px (limited by google) 
-     h: 100% the parent element up to 512px (limited by google) 
+Attribute     | Options     | Default      | Description
+---           | ---         | ---          | ---
+`lat`         | *float*     | `43.53120`   | Latitude value
+`lng`         | *float*     | `-5.655469`  | Longitude value
+`zoom`        | *int*       | `12`         | The zoom level of the map.
+`w`           | *int*       | `100%`       | 100% the parent element up to 512px (limited by google)
+`h`           | *int*       | `100%`       | 100% the parent element up to 512px (limited by google)
+`mapstyle`    | *string*    | `gmaps`      | type of map to show, options ['gmaps','openstreetmap']
 
-Sample:
 
-	<ist-image-map lat="43.4607733" lng="-3.800010" zoom="14" w="400" h="300" sensor="true"></ist-image-map>
+## Contributing
 
-View [demo](http://quelicoto.es/polymer/ist-image-map/index.html) 
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## History
+
+For detailed changelog, check [Releases](https://github.com/Isiat/ist-image-map/releases).
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
