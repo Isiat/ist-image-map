@@ -9,7 +9,8 @@
     "image",
     "map",
     "static",
-    "Polymer"
+    "Polymer",
+    "web-components"
   ],
   "license": "MIT",
   "homepage": "http://quelicoto.es",
