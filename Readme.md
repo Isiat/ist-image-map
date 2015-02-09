@@ -12,8 +12,10 @@
 Install the component using [Bower](http://bower.io/):
 
 ```sh
-$ bower install
+$ bower install ist-image-map --save
 ```
+
+Or [download as ZIP](https://github.com/Isiat/ist-image-map/archive/master.zip).
 
 ## Usage
 
@@ -26,7 +28,7 @@ $ bower install
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="elements/ist-image-map.html">
+    <link rel="import" href="bower_components/elements/ist-image-map.html">
     ```
 
 3. Start using it!

@@ -4,13 +4,15 @@
   "authors": [
     "Queli Coto <quelicm@gmail.com>"
   ],
-  "description": "Web compoment for create static image map",
+  "description": "Web component to create a static image maps (gmaps or openstreetmaps) using Polymer.",
   "keywords": [
     "image",
     "map",
     "static",
     "Polymer",
-    "web-components"
+    "web-components",
+    "openstreetmap",
+    "google-maps"
   ],
   "license": "MIT",
   "homepage": "http://quelicoto.es",
