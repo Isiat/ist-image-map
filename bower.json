@@ -1,9 +1,6 @@
 {
   "name": "ist-image-map",
   "version": "0.0.1",
-  "authors": [
-    "Queli Coto <quelicm@gmail.com>"
-  ],
   "description": "Web component to create a static image maps (gmaps or openstreetmaps) using Polymer.",
   "keywords": [
     "image",
